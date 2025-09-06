@@ -1,5 +1,5 @@
 // src/data/resourceData.ts
-import image from "/public/image.png";
+import image from "../public/image.png";
 
 export const resourceData = {
   // =========================
@@ -16,7 +16,7 @@ export const resourceData = {
       {
         title: "C++ STL + Basics | Love Babbar",
         url: "https://www.youtube.com/watch?v=RBSGKlAvoiM",
-        thumbnail: "https://i.imgur.com/0Q9QZpA.png",
+        thumbnail: image,
         note: "Foundation before DSA",
       },
     ],
