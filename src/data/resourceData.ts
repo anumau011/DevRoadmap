@@ -241,37 +241,153 @@ export const resourceData = {
       {
         title: "Python Full Course | BroCode",
         url: "https://www.youtube.com/watch?v=XKHEtdqhLK8",
-        thumbnail: image,
-        note: "Syntax, data types, functions",
+        thumbnail: "https://img.youtube.com/vi/XKHEtdqhLK8/0.jpg",
+        note: "till (05:58:19) multiprocessing ⚡",
       },
     ],
     codingPlatforms: [
       {
-        name: "HACKERRANK - Python",
-        url: "https://www.hackerrank.com/domains/tutorials/10-days-of-python",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png",
+        name: "The Coding Tracker",
+        url: "https://thecodingtracker.com/courses/codechef-coding-bigner/",
+        logo: "https://thecodingtracker.com/wp-content/uploads/2024/02/4-1.png",
+        color: "text-orange-500",
+      },
+      {
+        name: "Language Practice",
+        url: "https://www.geeksforgeeks.org/python/python-exercises-practice-questions-and-solutions/",
+        logo: "https://media.geeksforgeeks.org/gfg-gg-logo.svg",
         color: "text-green-500",
       },
     ],
   },
 
-  "python-collections": {
+  "core-dsa": {
+    videoResources: [],
+    codingPlatforms: [
+      {
+        name: "The Coding Tracker",
+        url: "https://thecodingtracker.com/courses/codechef-coding-bigner/",
+        logo: "https://thecodingtracker.com/wp-content/uploads/2024/02/4-1.png",
+        color: "text-orange-500",
+      },
+    ],
+  },
+  // OK
+
+  "core-dsa-python-opps": {
     videoResources: [
       {
-        title: "Python Collections Module Tutorial",
-        url: "https://www.youtube.com/watch?v=9ylj9NR0Lcg",
-        thumbnail: image,
-        note: "Covers deque, Counter, defaultdict, etc.",
+        title: "Python OOPS Tutorial By NuralNine",
+        url: "https://www.youtube.com/playlist?list=PL7yh-TELLS1Gs3PjmhXTXh1FdpGg6iing",
+        thumbnail: "https://img.youtube.com/vi/XKHEtdqhLK8/0.jpg",
+        note: "Foundation Of OOPS CONCEPT HELP TO BUID DATA STRUCTURE",
       },
     ],
     codingPlatforms: [
       {
-        name: "LEETCODE",
-        url: "https://leetcode.com/",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png",
-        color: "text-yellow-500",
+        name: "Practice On OOPS",
+        url: "https://www.geeksforgeeks.org/python/python-oops-coding-practice-problems/",
+        logo: "https://thecodingtracker.com/wp-content/uploads/2024/02/4-1.png",
+        color: "text-orange-500",
       },
     ],
+  },
+
+  "core-dsa-python-ds": {
+    videoResources: [
+      {
+        title: "CREATE DS MANUALLY Tutorial By NuralNine",
+        url: "https://www.youtube.com/playlist?list=PL7yh-TELLS1Gs3PjmhXTXh1FdpGg6iing",
+        thumbnail: "https://img.youtube.com/vi/XKHEtdqhLK8/0.jpg",
+        note: "Foundation Of OOPS CONCEPT HELP TO BUID DATA STRUCTURE",
+      },
+    ],
+    codingPlatforms: [
+      {
+        name: "Start Question Solving",
+        url: "https://stiveroldsheet.onrender.com/",
+        logo: "https://takeuforward.org/static/media/Tuf%20Logo%20B.a2ce02c035734f237b8a.png",
+        color: "text-orange-500",
+      },
+    ],
+  },
+  "core-dsa-python-pro": {
+    videoResources: [
+      {
+        title: "Strive A2Z",
+        url: "https://youtube.com/playlist?list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&si=avpFCwinhG9_M_iX",
+        thumbnail: "https://img.youtube.com/vi/XKHEtdqhLK8/0.jpg",
+        note: "Foundation Of OOPS CONCEPT HELP TO BUID DATA STRUCTURE",
+      },
+    ],
+    codingPlatforms: [
+      {
+        name: "Start Question Solving",
+        url: "https://stiveroldsheet.onrender.com/",
+        logo: "https://takeuforward.org/static/media/Tuf%20Logo%20B.a2ce02c035734f237b8a.png",
+        color: "text-orange-500",
+      },
+    ],
+  },
+  "advanced-dsa-py1":{
+    videoResources: [
+      {
+        title: "Strive A2Z",
+        url: "https://youtube.com/playlist?list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&si=avpFCwinhG9_M_iX",
+        thumbnail: "https://img.youtube.com/vi/rHn9af16O_E/0.jpg",
+        note: "Follow Stiver Sheet From Start To End. Solve Each Problem.",
+      },
+    ],
+codingPlatforms: [
+  {
+    name: "Striver Sheet",
+    url: "https://stiveroldsheet.onrender.com/",
+    logo: "https://takeuforward.org/static/media/Tuf%20Logo%20B.a2ce02c035734f237b8a.png",
+    color: "text-orange-500",
+  }
+]
+  },
+  "advanced-dsa-py2":{
+    videoResources: [
+    ],
+    codingPlatforms: [
+        {
+    name: "Striver Sheet",
+    url: "https://stiveroldsheet.onrender.com/",
+    logo: "https://takeuforward.org/static/media/Tuf%20Logo%20B.a2ce02c035734f237b8a.png",
+    color: "text-orange-500",
+  }
+    ]
+  },
+  "python-cp":{
+    videoResources: [
+    ],
+    codingPlatforms: [
+      {
+        name: "LeetCode",
+        url: "https://leetcode.com/contest/",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png",
+        color: "text-green-600",
+      },
+      {
+        name: "HackerRank",
+        url: "https://www.hackerrank.com/contests",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png",
+        color: "text-blue-500",
+      },
+      {
+        name: "Codeforces",
+        url: "https://codeforces.com/contests",
+        logo: "https://sta.codeforces.com/s/42056/images/codeforces-logo-with-telegram.png",
+        color: "text-indigo-500",
+      },
+      {
+        name: "CodeChef",
+        url: "https://www.codechef.com/contests",
+        logo: "https://cdn.codechef.com/images/cc-logo.svg",
+        color: "text-orange-600",
+      },
+    ]
   },
 
   "python-projects": {

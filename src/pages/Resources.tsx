@@ -19,7 +19,14 @@ interface CodingPlatform {
 const Resources = () => {
   const { topic } = useParams();
   console.log(topic)
-  const data = topic ? resourceData[topic as keyof typeof resourceData] : null;
+  interface ResourceDataType {
+    videoResources: VideoResource[];
+    codingPlatforms: CodingPlatform[];
+  }
+
+  const data: ResourceDataType | null = topic
+    ? (resourceData[topic as keyof typeof resourceData] as ResourceDataType)
+    : null;
 
   if (!data) {
     return (
@@ -38,6 +45,7 @@ const Resources = () => {
       <main className="container mx-auto px-4 py-8">
         <div className="max-w-3xl mx-auto space-y-8">
           {/* Video Resources */}
+          {videoResources.length > 0 ? (
           <section className="rounded-lg border border-border bg-card/50 p-6 mb-6">
             <h2 className="text-xl font-heading font-bold mb-4 text-neon-cyan tracking-wide border-b border-border pb-2">
               VIDEO RESOURCES
@@ -72,6 +80,7 @@ const Resources = () => {
               ))}
             </div>
           </section>
+          ):(<div></div>)}
 
           {/* Coding Platforms */}
           <section className="rounded-lg border border-border bg-card/50 p-6">
