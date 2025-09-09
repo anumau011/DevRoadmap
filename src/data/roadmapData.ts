@@ -343,7 +343,7 @@ export const pythondsa: RoadmapYear[] = [
         resourceId: "python-cp",
       },
       {
-        topic: "Hacker Rank",
+        topic: "Hacker",
         duration: "Randomly",
         resourceId: "python-cp",
       },

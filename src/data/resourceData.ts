@@ -319,20 +319,45 @@ export const resourceData = {
   },
   "core-dsa-python-pro": {
     videoResources: [
-      {
-        title: "Strive A2Z",
-        url: "https://youtube.com/playlist?list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&si=avpFCwinhG9_M_iX",
-        thumbnail: "https://img.youtube.com/vi/XKHEtdqhLK8/0.jpg",
-        note: "Foundation Of OOPS CONCEPT HELP TO BUID DATA STRUCTURE",
-      },
     ],
     codingPlatforms: [
-      {
-        name: "Start Question Solving",
-        url: "https://stiveroldsheet.onrender.com/",
-        logo: "https://takeuforward.org/static/media/Tuf%20Logo%20B.a2ce02c035734f237b8a.png",
-        color: "text-orange-500",
-      },
+  {
+    name: "Striver Sheets",
+    url: "https://stiveroldsheet.onrender.com/",
+    logo: "https://takeuforward.org/static/media/Tuf%20Logo%20B.a2ce02c035734f237b8a.png",
+    color: "text-orange-500",
+  },
+  {
+    name: "LeetCode",
+    url: "https://leetcode.com/",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png",
+    color: "text-green-600",
+  },
+  {
+    name: "HackerRank",
+    url: "https://www.hackerrank.com/",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png",
+    color: "text-blue-500",
+  },
+  {
+    name: "Codeforces",
+    url: "https://codeforces.com/",
+    logo: "https://sta.codeforces.com/s/42056/images/codeforces-logo-with-telegram.png",
+    color: "text-indigo-500",
+  },
+  {
+    name: "CodeChef",
+    url: "https://www.codechef.com/",
+    logo: "https://cdn.codechef.com/images/cc-logo.svg",
+    color: "text-orange-600",
+  },
+  {
+    name: "GeeksforGeeks",
+    url: "https://www.geeksforgeeks.org/",
+    logo: "https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png",
+    color: "text-green-700",
+  },
+
     ],
   },
   "advanced-dsa-py1":{
