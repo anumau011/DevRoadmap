@@ -239,25 +239,31 @@ export const resourceData = {
   "python-basics": {
     videoResources: [
       {
-        title: "Python Full Course | BroCode",
+        title: "Python By BroCode",
         url: "https://www.youtube.com/watch?v=XKHEtdqhLK8",
         thumbnail: "https://img.youtube.com/vi/XKHEtdqhLK8/0.jpg",
         note: "till (05:58:19) multiprocessing ⚡",
       },
+      {
+        title: "Python By Hitesh Chaudhary",
+        url: "https://www.youtube.com/watch?v=Ca5DLSDfPec&list=PLu71SKxNbfoBsMugTFALhdLlZ5VOqCg2s",
+        thumbnail: "https://img.youtube.com/vi/Ca5DLSDfPec/0.jpg",
+        note: "Complete Python Tutorial",
+      }
     ],
     codingPlatforms: [
-      {
+            {
+        name: "Language Practice",
+        url: "https://www.geeksforgeeks.org/python/python-exercises-practice-questions-and-solutions/",
+        logo: "https://media.geeksforgeeks.org/gfg-gg-logo.svg",
+        color: "text-green-500",
+      },{
         name: "The Coding Tracker",
         url: "https://thecodingtracker.com/courses/codechef-coding-bigner/",
         logo: "https://thecodingtracker.com/wp-content/uploads/2024/02/4-1.png",
         color: "text-orange-500",
       },
-      {
-        name: "Language Practice",
-        url: "https://www.geeksforgeeks.org/python/python-exercises-practice-questions-and-solutions/",
-        logo: "https://media.geeksforgeeks.org/gfg-gg-logo.svg",
-        color: "text-green-500",
-      },
+
     ],
   },
 
@@ -279,7 +285,7 @@ export const resourceData = {
       {
         title: "Python OOPS Tutorial By NuralNine",
         url: "https://www.youtube.com/playlist?list=PL7yh-TELLS1Gs3PjmhXTXh1FdpGg6iing",
-        thumbnail: "https://img.youtube.com/vi/XKHEtdqhLK8/0.jpg",
+        thumbnail: "https://img.youtube.com/vi/2S7Xxz9PhaU/0.jpg",
         note: "Foundation Of OOPS CONCEPT HELP TO BUID DATA STRUCTURE",
       },
     ],
@@ -298,8 +304,8 @@ export const resourceData = {
       {
         title: "CREATE DS MANUALLY Tutorial By NuralNine",
         url: "https://www.youtube.com/playlist?list=PL7yh-TELLS1Gs3PjmhXTXh1FdpGg6iing",
-        thumbnail: "https://img.youtube.com/vi/XKHEtdqhLK8/0.jpg",
-        note: "Foundation Of OOPS CONCEPT HELP TO BUID DATA STRUCTURE",
+        thumbnail: "https://img.youtube.com/vi/1iz9SRWdpX8/0.jpg",
+        note: "CREATE ALL DATA STRUCTURE MANULLAY",
       },
     ],
     codingPlatforms: [
