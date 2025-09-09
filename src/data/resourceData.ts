@@ -293,8 +293,8 @@ export const resourceData = {
       {
         name: "Practice On OOPS",
         url: "https://www.geeksforgeeks.org/python/python-oops-coding-practice-problems/",
-        logo: "https://thecodingtracker.com/wp-content/uploads/2024/02/4-1.png",
-        color: "text-orange-500",
+        logo: "https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png",
+        color: "text-green-500",
       },
     ],
   },
